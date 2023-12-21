@@ -237,23 +237,29 @@ confirmar nome do usuario __________________________________________ git config 
 confirmar email do usuario _________________________________________ git config --global user.email
 mudar da branch "master" para a branch "main" ______________________ git branch -M "main"
 criar branch _______________________________________________________ git branch "<nome-da-branch>"
-criar branch dentro de uma branch específica _______________________ git branch -c "<branch-específica>" "<nome-da-branch>"
-listar branchs _____________________________________________________ git branch
+listar as branchs do repositório e indicar a que você está _________ git branch
+excluir a branch mencionada ________________________________________ git branch -d <nome-da-branch>
+excluir forçadamente a branch mencionada ___________________________ git branch -d <nome-da-branch>
+renomear a branch atual ____________________________________________ git branch -m <novo-nome-da-branch>
+renomear uma branch ________________________________________________ git branch -m <nome-antigo> <nome-novo>
+listar todas as branchs remotas ____________________________________ git branch -a
 mudar para branch desejada _________________________________________ git checkout <nome-da-branch>
-criar branch dentro de uma branch específica e ja mudar para ela ___ git checkout -b "<nome-da-branch>" "<branch-específica>"
+criar branch e ja mudar para ela ___________________________________ git checkout -b "<nome-da-branch>"
+criar branch dentro de uma branch específica _______________________ git checkout -b "<nome-da-branch>" "<branch-específica>"
 exibir alterações do projeto, status da stage area _________________ git status
 adicionar arquivos/alterações na stage area, antes do commit _______ git add <nome-do-arquivo/alteração>
 adicionar arquivos/alterações na stage area, antes do commit _______ git add . (add todos os arquivos/alterações da pasta)
-mostrar histórico dos commits realizados de cada branch ____________ git log 
+mostrar histórico dos commits da branch atual e da main ____________ git log 
 mostrar diferenças realizadas no projeto após o último commit ______ git diff (diferença) 
 registrar na stage area, as alteraçÕes feita no projeto ____________ git commit -m "<texto-informando-as-alterações>" 
+alterar a mensagem do commit _______________________________________ git commit --amend
+descartar as alterações feitas no arquivo após o ultimo commit _____ git restore <nome-do-arquivo>
+descartar as alterações feitas no projeto após o ultimo commit _____ git restore .
 conectar o repositório local com o GitHub __________________________ git remote add origin <link-repositório-github>
-empurrar commits do repositório local para o remoto ________________ git push -u origin main (origin-Apelido.Repositório)
-empurrar commits do repositório local para o remoto ________________ git push origin main
-empurrar commits do repositório local para o remoto ________________ git push
+empurrar commits do repositório local para o remoto ________________ git push origin <noma-da-branch>
 puxar os commits do repositório remoto para o local ________________ git pull (traz atualizações e mostra conflitos)
 fazer clone/cópia de um repositório remoto para um local ___________ git clone
-voltar o projeto para a ramificação na qual foi originada __________ git merge
+trazer as alterações feitas em uma branch para a que você está _____ git merge <nome-da-branch-que-voce-quer-trazer>
 concluir uma mesclagem que foi interrompida ________________________ git merge --continue
 cancelar o merge que foi dado ______________________________________ git merge --abort
 
@@ -263,18 +269,23 @@ copiar _____________________________________________________________ ctrl insert
 colar ______________________________________________________________ shift insert
 sair do vin ________________________________________________________ control c / :wq ou :q / ENTER
 
+No entanto, se você já subiu este branch para o repositório, terá que remover o antigo e então subir o novo, 
+após ter renomeado com o comando acima. Para isso faça
+git push origin --delete <nome-antigo>
+git push origin <nome-novo>
+
 
 
 
 
 PROCESSO DE PUSH QUANDO FICA DANDO ERRO
 ---------------------------------------
-1) git push, 
-2) git pull para trazer as atualizações e mostrar os conflitos
-3) resolve os conflitos, 
-4) dar add <nome-do-arquivo>, 
-5) git merge --continue, 
-6) git push
+01 - { git push origin <nome-da-branch> 
+02 - { git pull (para trazer as atualizações e mostrar os conflitos)
+03 - resolve os conflitos, 
+04 - { git add <nome-do-arquivo>, 
+05 - { git merge --continue, 
+06 - { git push
 
 
 
