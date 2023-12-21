@@ -215,17 +215,19 @@ limpar todo o terminal _____________________________________________ option comm
 
 COMANDOS GIT (GIT BASH WINDOWS)
 ------------------------------------------
-deixar o cursor do terminal em cima ________________________________ ctrl l 
-limpa o terminal ___________________________________________________ clear
-copiar _____________________________________________________________ ctrl insert
-colar ______________________________________________________________ shift insert
-sair do vin ________________________________________________________ control c / :wq ou :q / ENTER
+
+Como sair do git status (vin)? Para sair do modo de edição, digite:
+01 - control c
+02 - :wq (para salvar alterações e sair)  OU  :q (para sair sem salvar alterações)  
+03 - ENTER
+
+iniciar controle versionamento na pasta/projeto em questão _________ git init
 listar o que tem na pasta em questão _______________________________ ls (list directory contents)
 listar o que tem na pasta em questão incluindo ocultas _____________ ls -a  (ou)  ls -la
 listar o que tem em uma pasta específica ___________________________ ls <caminho-da-pasta>
-ir para a pasta informada __________________________________________ cd <nome-da-pasta> (change diretory)
-ir para a pasta anterior ___________________________________________ cd ..
 criar uma pasta ou outra dentro da pasta em questão ________________ mkdir <nome-da-pasta>
+ir para a pasta informada __________________________________________ cd <nome-da-pasta> (change diretory)
+ir para uma pasta anterior _________________________________________ cd ..
 criar um arquivo na pasta em questão _______________________________ touch <nome-do-arquivo>
 abrir a pasta em questão no vs code ________________________________ code .
 exibir o path atual ________________________________________________ pwd
@@ -234,30 +236,33 @@ configurar email do usuario ________________________________________ git config 
 confirmar nome do usuario __________________________________________ git config --global user.name
 confirmar email do usuario _________________________________________ git config --global user.email
 mudar da branch "master" para a branch "main" ______________________ git branch -M "main"
-criar uma nova branch ______________________________________________ git checkout -b "<nome-da-branch>"
-mudar de branch e navegar nelas ou restaura arquivos _______________ git checkout <nome-da-branch>
-fazer clone/cópia de um repositório remoto para um local ___________ git clone
-criar repositório da pasta / iniciar controle versionamento ________ git init
+criar branch _______________________________________________________ git branch "<nome-da-branch>"
+criar branch dentro de uma branch específica _______________________ git branch -c "<branch-específica>" "<nome-da-branch>"
+listar branchs _____________________________________________________ git branch
+mudar para branch desejada _________________________________________ git checkout <nome-da-branch>
+criar branch dentro de uma branch específica e ja mudar para ela ___ git checkout -b "<nome-da-branch>" "<branch-específica>"
+exibir alterações do projeto, status da stage area _________________ git status
 adicionar arquivos/alterações na stage area, antes do commit _______ git add <nome-do-arquivo/alteração>
 adicionar arquivos/alterações na stage area, antes do commit _______ git add . (add todos os arquivos/alterações da pasta)
-exibir alterações do projeto, status da stage area _________________ git status
-
-Como sair do git status? Para sair do modo de edição, digite 
-:q (para sair sem salvar alterações) ou 
-:wq (para salvar alterações e sair) e pressione Enter.
-
-conectar o repositório local com o GitHub __________________________ git remote add origin <link-repositório-github>
-mostrar os commits realizados / historico da branch ________________ git log 
-mostrar diferenças entre branches ou entre commits _________________ git diff (diferença) 
-criar, listar, renomear e excluir branchs __________________________ git branch
+mostrar histórico dos commits realizados de cada branch ____________ git log 
+mostrar diferenças realizadas no projeto após o último commit ______ git diff (diferença) 
 registrar na stage area, as alteraçÕes feita no projeto ____________ git commit -m "<texto-informando-as-alterações>" 
-empurrar commits do repositório local para o remoto ________________ git push -U origin main (origin-Apelido.Repositório)
+conectar o repositório local com o GitHub __________________________ git remote add origin <link-repositório-github>
+empurrar commits do repositório local para o remoto ________________ git push -u origin main (origin-Apelido.Repositório)
 empurrar commits do repositório local para o remoto ________________ git push origin main
 empurrar commits do repositório local para o remoto ________________ git push
 puxar os commits do repositório remoto para o local ________________ git pull (traz atualizações e mostra conflitos)
+fazer clone/cópia de um repositório remoto para um local ___________ git clone
 voltar o projeto para a ramificação na qual foi originada __________ git merge
 concluir uma mesclagem que foi interrompida ________________________ git merge --continue
 cancelar o merge que foi dado ______________________________________ git merge --abort
+
+deixar o cursor do terminal em cima ________________________________ ctrl l 
+limpa o terminal ___________________________________________________ clear
+copiar _____________________________________________________________ ctrl insert
+colar ______________________________________________________________ shift insert
+sair do vin ________________________________________________________ control c / :wq ou :q / ENTER
+
 
 
 
