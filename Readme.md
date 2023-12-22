@@ -1,9 +1,13 @@
 
+
 ==================================================
 ANOTAÇÕES ESTUDO DESENVOLVIMENTO FULLSTACK
 --------------------------------------------------             
 HTML / CSS / JS / REACT / NODE / GIT/GITHUB / SQL
 ==================================================
+
+
+
 
 
 
@@ -64,107 +68,6 @@ Site para criar Mockup/Wireframe
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-==============
- ESTUDOS HTML
-==============
-
-
-COMANDOS E ATALHOS NO HTML
---------------------------
-fazer comentário __________________________________________________ <ctrl k + ctrl c>  (ou)  <Ctrl;>  (ou)  <!-- -->
-copiar linha atual nas linhas acima _______________________________ <cursor na linha desejada / alt + shift + seta cima>
-copiar linha atual nas linhas abaixo ______________________________ <cursor na linha desejada / alt + shift + seta baixo>
-fazer parte do código/projeto com um atalho _______________________ div.container>ul#lista>li*10
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=============
- ESTUDOS CSS
-=============
-
-
-h1{
-    color: red;
-}
-SELETOR(h1) - PROPRIEDADE(color) - VALOR(red)
-
-
-
-COMANDOS E ATALHOS NO CSS
--------------------------
-fazer comentário (1 linha) _________________________________________ // 
-fazer comentário (várias linhas) ___________________________________ <ctrl k + ctrl c>  (ou)  /* */  
-copiar linha atual nas linhas acima _______________________________ <cursor na linha desejada / alt + shift + seta cima>
-copiar linha atual nas linhas abaixo ______________________________ <cursor na linha desejada / alt + shift + seta baixo>
-
-
-
-TREINAR CSS
------------
-
-CSS TRICKS
-O CSS Tricks é uma documentação que demonstra os truques e comandos do CSS.
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-
-CSS BATTLE
-O CSSBattle é um jogo online de golfe com código CSS . Aqui, jogadores de todo o mundo tentam replicar visualmente "Alvos" no menor código CSS possível e batalham para chegar ao topo da tabela de classificação.
-https://cssbattle.dev/
-
-
-FLEXBOX
-O Flexbox é um modelo de layout do CSS que permite a melhor distribuição dos elementos na página.
-Ele facilita na criação de interfaces que sejam responsivas.     
-Site para treinar o FLEXBOX.
-https://flexboxfroggy.com/
-
-
-MEDIA QUERY (Aprender sobre adequação desktop/mobile)
-Media query, nada mais é do que uma estrutura do CSS que permite aplicar estilizações, 
-fazendo com que esta página possa se adequar ao layout em diferentes tamanhos de tela e tipos de mídia.
-https://www.w3schools.com/css/css_rwd_mediaqueries.asp
-https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries
 
 
 
@@ -335,6 +238,138 @@ git push
 
 
 
+
+
+
+
+
+
+
+
+==============
+ ESTUDOS HTML
+==============
+
+
+COMANDOS E ATALHOS NO HTML
+--------------------------
+fazer comentário __________________________________________________ <ctrl k + ctrl c>  (ou)  <Ctrl;>  (ou)  <!-- -->
+copiar linha atual nas linhas acima _______________________________ <cursor na linha desejada / alt + shift + seta cima>
+copiar linha atual nas linhas abaixo ______________________________ <cursor na linha desejada / alt + shift + seta baixo>
+fazer parte do código/projeto com um atalho _______________________ div.container>ul#lista>li*10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=============
+ ESTUDOS CSS
+=============
+
+
+h1{
+    color: red;
+}
+SELETOR(h1) - PROPRIEDADE(color) - VALOR(red)
+
+
+
+COMANDOS E ATALHOS NO CSS
+-------------------------
+fazer comentário (1 linha) _________________________________________ // 
+fazer comentário (várias linhas) ___________________________________ <ctrl k + ctrl c>  (ou)  /* */  
+copiar linha atual nas linhas acima _______________________________ <cursor na linha desejada / alt + shift + seta cima>
+copiar linha atual nas linhas abaixo ______________________________ <cursor na linha desejada / alt + shift + seta baixo>
+
+
+
+TREINAR CSS
+-----------
+
+CSS TRICKS
+O CSS Tricks é uma documentação que demonstra os truques e comandos do CSS.
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+CSS BATTLE
+O CSSBattle é um jogo online de golfe com código CSS . Aqui, jogadores de todo o mundo tentam replicar visualmente "Alvos" no menor código CSS possível e batalham para chegar ao topo da tabela de classificação.
+https://cssbattle.dev/
+
+
+FLEXBOX
+O Flexbox é um modelo de layout do CSS que permite a melhor distribuição dos elementos na página.
+Ele facilita na criação de interfaces que sejam responsivas.     
+Site para treinar o FLEXBOX.
+https://flexboxfroggy.com/
+
+
+MEDIA QUERY (Aprender sobre adequação desktop/mobile)
+Media query, nada mais é do que uma estrutura do CSS que permite aplicar estilizações, 
+fazendo com que esta página possa se adequar ao layout em diferentes tamanhos de tela e tipos de mídia.
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ====================
  ESTUDOS JAVASCRIPT
 ====================
@@ -375,6 +410,15 @@ O CodePen é um site que oferece um ambiente onde a medida que você vai escreve
 já vai vendo os resultados da construção.
 Ótimo para linguagens front-end como HTML, CSS, JavaScript.
 https://codepen.io/
+
+
+
+
+
+
+
+
+
 
 
 
@@ -467,6 +511,15 @@ imagem.style.width = "20em";
 
 
 
+
+
+
+
+
+
+
+
+
 ===============
  ESTUDOS REACT
 ===============
@@ -478,6 +531,15 @@ O Stackblitz é um site que oferece uma experiências de desenvolvimento instant
 onde a medida que você vai escrevendo seu código, já vai vendo os resultados da construção.
 Ótimo para linguagens front-end e backend como React e Node.js.
 https://stackblitz.com/
+
+
+
+
+
+
+
+
+
 
 
 
