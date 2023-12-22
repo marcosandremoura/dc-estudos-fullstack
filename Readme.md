@@ -256,10 +256,11 @@ alterar a mensagem do commit _______________________________________ git commit 
 descartar as alterações feitas no arquivo após o ultimo commit _____ git restore <nome-do-arquivo>
 descartar as alterações feitas no projeto após o ultimo commit _____ git restore .
 conectar o repositório local com o GitHub __________________________ git remote add origin <link-repositório-github>
-empurrar commits do repositório local para o remoto ________________ git push origin <noma-da-branch>
-puxar os commits do repositório remoto para o local ________________ git pull (traz atualizações e mostra conflitos)
+empurrar commits das branchs do repositório local para o remoto ____ git push origin <noma-da-branch>
+puxar os commits das branchs do repositório remoto para o local ____ git pull origin <noma-da-branch>
+atualizar o repositório local de acordo com o remoto _______________ git fetch
 fazer clone/cópia de um repositório remoto para um local ___________ git clone
-trazer as alterações feitas em uma branch para a que você está _____ git merge <nome-da-branch-que-voce-quer-trazer>
+mescla a sua branch com outra do seu interesse _____________________ git merge <nome-da-branch-que-voce-quer-mesclar>
 concluir uma mesclagem que foi interrompida ________________________ git merge --continue
 cancelar o merge que foi dado ______________________________________ git merge --abort
 
