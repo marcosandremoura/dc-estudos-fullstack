@@ -260,6 +260,12 @@ git push
 
 
 
+PRINCIPAIS TAGS HTML
+--------------------
+https://www.instagram.com/p/CHiQXYPgX...
+
+
+
 COMANDOS E ATALHOS NO HTML
 --------------------------
 fazer comentário __________________________________________________ <ctrl k + ctrl c>  (ou)  <Ctrl;>  (ou)  <!-- -->
@@ -303,9 +309,6 @@ fazer parte do código/projeto com um atalho _______________________ div.contain
 =============================================================================
 =============================================================================
 
-=============
- ESTUDOS CSS
-=============
 
 
 h1{
@@ -315,12 +318,38 @@ SELETOR(h1) - PROPRIEDADE(color) - VALOR(red)
 
 
 
+LINK GOOGLE FONTS
+-----------------
+https://fonts.google.com/
+
+
+
+PRINCIPAIS PROPRIEDADES CSS
+---------------------------
+https://www.instagram.com/p/CIQnsYugB...
+
+
+
+PRINCIPAIS SELETORES CSS
+------------------------
+https://www.instagram.com/p/CH8AD71AH...
+
+
+
 COMANDOS E ATALHOS NO CSS
 -------------------------
 fazer comentário (1 linha) _________________________________________ // 
 fazer comentário (várias linhas) ___________________________________ <ctrl k + ctrl c>  (ou)  /* */  
 copiar linha atual nas linhas acima _______________________________ <cursor na linha desejada / alt + shift + seta cima>
 copiar linha atual nas linhas abaixo ______________________________ <cursor na linha desejada / alt + shift + seta baixo>
+
+
+
+
+GUIA DO FLEXBOX
+---------------
+https://css-tricks.com/snippets/css/a...
+
 
 
 
